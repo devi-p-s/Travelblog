@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+ .cover{
+    background-image: url("https://www.lostwithpurpose.com/wp-content/uploads/2018/05/fb-share-solo.jpg");
+    background-size: cover;
+    height:750px;
+    display: flex;
+    
+       
+     
+ }
+ .cover h1{
+    font-family: "Dancing Script", cursive;
+    color:white;
+    font-weight:bolder;
+    font-size:40px;
+    margin-left: 15px;
+   padding: 20px;
+   position: fixed;
+   
+ }
+ .na{
+   position: absolute;
+   top: 20px;
+   background-color: transparent;
+ position: fixed;
+   margin-left: 800px;
+   color:white;
+   font-size: 19px;
+ 
+  
+ }
+ 
+
+
+ .na ul{
+ position: sticky;
+ 
+
+   display: flex;
+   
+   
+ }
+ .na ul li{
+   margin: 10px;
+  
+ }
+  
+  
+
+
+.para{
+   position: absolute;
+   top:290px;
+   font-size:27px;
+   font-family:monospace;
+   color:white;
+   text-shadow: grey;
+   font-weight:lighter;
+   justify-content: center;
+   margin-left: 399px;
+   font-weight: lighter;
+   
+}
+.cont h2{
+   margin-left: 370px;
+   margin-top: 30px;
+}
+
+.cont p{
+  margin-left: 370px;
+margin-right: 530px;
+font-size: 17px;
+margin-top: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.des{
+  
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  color: #888;
+
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+
+}
+
+.image-container {
+  position: relative;
+  width: 23%; /* Adjust the width for spacing */
+  overflow: hidden;
+
+ 
+  
+  /* Spacing between rows if needed */
+}
+
+.image-container img {
+  width: 100%;
+  height: 350px;
+  transition: transform 0.5s ease;
+  margin-top: 20px;
+
+}
+.image-container h2{
+  position: absolute;
+  top:140px;
+  padding:20px 90px;
+  font-weight: bolder;
+  color:white;
+  text-shadow: 2px 4px 6px black;
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* Zoom effect */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    width: 48%; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container {
+    width: 100%;}
+  }
+  .imcard{
+   
+    align-items:center ;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+  }
+
+  .image-r{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    justify-content: space-evenly;
+  
+  }
+  
+  .image-containe {
+    position: relative;
+   /* Adjust the width for spacing */
+    overflow: hidden;
+  
+   
+    
+    /* Spacing between rows if needed */
+  }
+  
+  .image-containe img {
+    width: 450px;
+    height: 350px;
+    transition: transform 0.5s ease;
+    margin-top: 20px;
+  
+  }
+  .image-containe h4{
+    position: absolute;
+    top:110px;
+    padding:20px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+  }
+  .image-containe h6{
+    position: absolute;
+    top:170px;
+    padding:20px 90px;
+    font-weight: lighter;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+
+  }
+  .image-containe:hover img {
+    transform: scale(1.2); /* Zoom effect */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .image-containe:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+ 
+  .image-ro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    justify-content: space-evenly;
+  
+  }
+  
+  .image-containera {
+    position: relative;
+/* Adjust the width for spacing */
+    overflow: hidden;
+  
+   
+    
+    /* Spacing between rows if needed */
+  }
+  
+  .image-containera img {
+    width: 450px;
+    height: 350px;
+    transition: transform 0.5s ease;
+    margin-top: 20px;
+  
+  }
+  .image-containera h4{
+    position: absolute;
+    top:210px;
+    padding:20px;
+    font-weight: bolder;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+  }
+  
+  .image-containera h6{
+    position: absolute;
+    top:300px;
+    padding:20px ;
+    font-weight: lighter;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+  }
+  .image-containera:hover img {
+    transform: scale(1.2); /* Zoom effect */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .image-containera:hover .overlay {
+    opacity: 1; /* Show overlay on hover */}
+    .bt{
+      text-align: center;
+      padding: 20px;
+    
+    
+    }
+    .bt .button{
+      height: 50px;
+      width: 150px;
+      background-color: rgb(79, 17, 193);
+      color:azure;
+      font-weight: bolder;
+      transition:grey 0.3s ease;
+      border: 1px solid darkgray;
+    }
+   .button:hover{
+      cursor: pointer;
+      background-color: grey;
+    }
+    footer {
+      background-color: #302e2e;
+      padding: 20px 0;
+      color: #999797;
+      margin-top: 5px;
+  }
+  
+  .footer-container {
+      display: flex;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  .footer-column {
+      flex: 1;
+      padding: 10px;
+  }
+  
+  .footer-column h3 {
+      margin-bottom: 15px;
+      font-size: 18px;
+      text-transform: uppercase;
+  }
+  
+  .footer-column ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .footer-column ul li {
+      margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    color: #999797;
+      text-decoration: none;
+      font-weight: lighter;
+      font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+      text-decoration: none;
+  }
+  
+  .footer-disclaimer {
+
+      margin: 0 auto;
+      padding:10px;
+      text-align: center;
+      font-size: 12px;
+      color: #bbb;
+      margin-left:510px ;
+      margin-right: 420px;
+  }
+  .footerhead{
+    font-family: "Dancing Script", cursive;
+    color: #999797;;
+    font-weight:bolder;
+    font-size:40px;
+    text-align: center;
+  }
+  .last h6{
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #999797;
+  }
+  .image-r1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    justify-content: space-evenly;
+  
+  }
+  
+  .image-containera1 {
+    position: relative;
+/* Adjust the width for spacing */
+    overflow: hidden;
+  
+   
+    
+    /* Spacing between rows if needed */
+  }
+  
+  .image-containera1 img {
+    width: 450px;
+    height: 350px;
+    transition: transform 0.5s ease;
+    margin-top: 20px;
+  
+  }
+  .image-containera1 h4{
+    position: absolute;
+    top:190px;
+    padding:20px;
+    font-weight: bolder;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+    margin-left: 15px;
+    margin-right: 80px;
+  }
+  
+  .image-containera1 h6{
+    position: absolute;
+    top:300px;
+    padding:20px ;
+    font-weight: lighter;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+    margin-left: 35px;
+ 
+  }
+  .image-containera1:hover img {
+    transform: scale(1.2); /* Zoom effect */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .image-containera1:hover .overlay {
+    opacity: 1; /* Show overlay on hover */}
+    .bt{
+      text-align: center;
+      padding: 20px;
+    
+    
+    }
+      .image-containera1 .e{
+      position: absolute;
+    top:270px;
+    padding:20px ;
+    font-weight: lighter;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+    margin-left: 35px;
+    
+
+  }
+    .heading{
+      text-align: center;
+      font-weight: lighter;
+      font-size: 19px;
+      color: #999797;
+    }
+    .background{
+      background-color: rgb(251, 247, 249);
+    }
